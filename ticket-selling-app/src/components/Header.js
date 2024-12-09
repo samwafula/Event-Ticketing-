@@ -6,7 +6,7 @@ function Header() {
     <>
       <header class="header">
         <div class="container">
-          <h1 class="logo">StubHub</h1>
+          <h1 class="logo">Ticketi Sasa</h1>
           <nav>
             <ul>
               <li>
@@ -14,6 +14,9 @@ function Header() {
               </li>
               <li>
                 <a href="#">Gift Cards</a>
+              </li>
+              <li>
+                <a href="#">Create Events</a>
               </li>
               <li>
                 <a href="#">Sell</a>

@@ -1,23 +1,10 @@
 import react from 'react';
+import Header from '../components/Header';
 
 function HomePage() {
     return(
         <body>
-        <header class="header">
-          <div class="container">
-            <h1 class="logo">Ticketi Sasa</h1>
-            <nav>
-              <ul>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Gift Cards</a></li>
-                <li><a href="#">Sell</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">My Tickets</a></li>
-                <li><a href="#" class="sign-in">Sign In</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+       <Header/>
     
         <section class="hero">
           <div class="container">
