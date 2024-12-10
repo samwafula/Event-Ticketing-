@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Ensures it stays above other content */
+  z-index: 1000; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -218,7 +218,7 @@ body {
   transform: translateY(-5px);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .event-grid {
     flex-direction: column;

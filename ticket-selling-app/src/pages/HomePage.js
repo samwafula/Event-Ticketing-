@@ -1,5 +1,9 @@
 import react from 'react';
 import Header from '../components/Header';
+import  event1 from '../app/assets/event1.jpg';
+import  event2 from '../app/assets/event2.jpg';
+import  event3 from '../app/assets/event3.jpg';
+
 
 function HomePage() {
     return(
@@ -23,19 +27,19 @@ function HomePage() {
           <h2>Featured Events</h2>
           <div class="event-grid">
             <div class="event-card">
-              <img src="event1.jpg" alt="Event" />
+              <img src={event1} alt="Event" />
               <h3>Music Festival</h3>
               <p>Date: 12th Dec | Location: LA</p>
               <button class="buy-btn">Buy Tickets</button>
             </div>
             <div class="event-card">
-              <img src="event2.jpg" alt="Event" />
+              <img src={event2} alt="Event" />
               <h3>Sports Championship</h3>
               <p>Date: 20th Dec | Location: NY</p>
               <button class="buy-btn">Buy Tickets</button>
             </div>
             <div class="event-card">
-              <img src="event3.jpg" alt="Event" />
+              <img src={event3} alt="Event" />
               <h3>Theater Show</h3>
               <p>Date: 18th Dec | Location: Chicago</p>
               <button class="buy-btn">Buy Tickets</button>
